@@ -1,4 +1,3 @@
-
 let phrases = [
   { text: 'отправить другу смешную гифку', image: 'https://code.s3.yandex.net/web-code/procrastinate/1.gif' },
   { text: 'посмотреть скидки на авиабилеты', image: 'https://code.s3.yandex.net/web-code/procrastinate/2.png' },
@@ -36,4 +35,5 @@ button.addEventListener('click', function () {
 });
 for (let i = 0; i <= 2; i = i + 1) {
   smoothly(phrase, 'textContent', phrases[i].text);
-  smoo
+  smoothly(image, 'src', phrases[i].image);
+} 
